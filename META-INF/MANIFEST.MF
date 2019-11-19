@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Diff-merge
+Bundle-SymbolicName: diff-merge
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: diff-merge
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Import-Package: org.eclipse.emf.compare
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.emf.ecore;visibility:=reexport,
+ org.eclipse.emf.ecore.xmi;visibility:=reexport,
+ org.eclipse.emf.ecore,
+ org.eclipse.emf.compare,
+ org.eclipse.uml2.uml
